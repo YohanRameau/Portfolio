@@ -1,2 +1,16 @@
-<p>Card Project</p>
-
+<H1>Card Project</H1>
+<mat-card class="card-project">
+  <mat-card-header>
+    <mat-card-title>{{cardProject.name}}</mat-card-title>
+  </mat-card-header>
+  <p>{{cardProject.img}}</p>
+  <mat-card-content>
+    <p>
+      {{cardProject.description}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>MODIFY</button>
+    <button mat-button>DELETE</button>
+  </mat-card-actions>
+</mat-card>
